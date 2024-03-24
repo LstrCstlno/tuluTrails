@@ -19,10 +19,9 @@
     top: 0;
     opacity: 1;
     z-index: 0;
-    
-    display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     -webkit-flex-align: center;
@@ -39,21 +38,21 @@
 /* each slide background color */ 
 .slide1 {
     background-image: linear-gradient(to bottom, rgba(43, 52, 104, 0.3), rgba(56, 35, 51, 0.3)),
-    url('/Escapes/tuluTrails_intro/images/wp10000842.jpg');
+    url('/tuluTrails/wp10000842.jpg');
     background-size: cover;
     left: 0;
     background-position: bottom;
 }
 .slide2 {
     background-image: linear-gradient(to bottom, rgba(43, 52, 104, 0.3), rgba(56, 35, 51, 0.3)),
-    url('/Escapes/tuluTrails_intro/images/14-waterfalls-in-mangalore.jpg');
+    url('/tuluTrails/14-waterfalls-in-mangalore.jpg');
     background-position: center;
     background-size: cover;
     left: 100%
 }
 .slide3 {
     background-image: linear-gradient(to bottom, rgba(43, 52, 104, 0.3), rgba(56, 35, 51, 0.3)),
-    url('/Escapes/tuluTrails_intro/images/bootha_kola-scaled-1.jpg');
+    url('/tuluTrails/bootha_kola-scaled-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +60,7 @@
 }
 .slide4 {
     background-image: linear-gradient(to bottom, rgba(43, 52, 104, 0.3), rgba(56, 35, 51, 0.3)),
-    url('/Escapes/tuluTrails_intro/images/150293.jpg');
+    url('/tuluTrails/150293.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
